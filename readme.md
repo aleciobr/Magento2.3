@@ -7,6 +7,7 @@ C:\wamp\www\sualoja\vendor\magento\framework\View\Element\Template\File
 2- Abra o arquivo "Validator.php" em um editor
 
 3- Edite essa função:
+
     protected function isPathInDirectories($path, $directories)
     {
         if (!is_array($directories)) {
